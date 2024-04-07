@@ -40,13 +40,11 @@ class EmployeeAdmin(admin.ModelAdmin):
 from django.contrib import admin
 
 from .models import Employee,EmployeeAdmin
-# Register your models here.
+
 admin.site.register(Employee,EmployeeAdmin)
 
 ## OUTPUT
-
-Include the screenshot of your admin page.
-
+![Screenshot 2024-04-06 101055](https://github.com/Sanjit2328/ORM/assets/139331694/b546aff1-0098-4a1a-8ee3-6dff71ba2f8c)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
